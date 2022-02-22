@@ -1,2 +1,2 @@
-# chord_diagram
-Chord diagram
+# Chord Diagram
+A simple chord diagram.
