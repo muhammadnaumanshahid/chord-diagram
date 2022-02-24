@@ -20,6 +20,8 @@ import json
 
 # Enter license information
 # Visit https://plotapi.com/my-account to buy a new license.
-Chord.set_license("your username", "your license key")
+# Chord.set_license("your username", "your license key")
+
+Chord.set_license("nauman555@gmail.com", "PLOTAPI-P-db6afc71-692f-47d3-834d-8b843cd874ca")
 
 Chord(matrix, names, arc_numbers=True, data_table_show_indices=False,opacity=0.8).to_html()
