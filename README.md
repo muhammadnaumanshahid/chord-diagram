@@ -5,4 +5,4 @@ A simple chord diagram.
 
 Following is the first row and first column of the data file (heatmap.xlsx).
 
-contract, smart, chain, bitcoin, suppli, applic, financi, energi, busi, develop, network, secur, protocol, attack, data, devic, privaci, transact, user, method, hash, block, includ, plural, receiv, configur.
+contract, smart, bitcoin, suppli, applic, chain, financi, energi, busi, develop, data, network, secur, protocol, attack, devic, transact, privaci, user, method, block, includ, hash, plural, receiv, configur.
