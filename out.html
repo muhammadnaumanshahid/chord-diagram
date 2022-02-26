@@ -28,29 +28,29 @@ Copyright (C) 2021  Dr. Shahin Rostami
     font-family: "Lato", sans-serif !important;
 }
 
-#plotapi-chart-097fbff9, #featured-plotapi-chart-097fbff9 {
+#plotapi-chart-0f89c8f0, #featured-plotapi-chart-0f89c8f0 {
     font-size: 16px;
     font-family: "Lato", sans-serif !important;
         text-align: center;
     fill: #454545;
 }
 
-#plotapi-chart-097fbff9 svg, #featured-plotapi-chart-097fbff9 svg {
+#plotapi-chart-0f89c8f0 svg, #featured-plotapi-chart-0f89c8f0 svg {
     max-width: 700px;
 }
 
-.details_thumbs-plotapi-chart-097fbff9 {
+.details_thumbs-plotapi-chart-0f89c8f0 {
     margin: 5px;
     max-width: 85px;
     padding: 0;
     display: inline-block; 
 }
 
-.details_thumbs-plotapi-chart-097fbff9 img {
+.details_thumbs-plotapi-chart-0f89c8f0 img {
     max-width: 85px;
 }
 
-.details_thumbs-plotapi-chart-097fbff9 figcaption {
+.details_thumbs-plotapi-chart-0f89c8f0 figcaption {
     text-align: center;
     font-size: 14px;
 }
@@ -69,7 +69,7 @@ Copyright (C) 2021  Dr. Shahin Rostami
 }
 
 @media (min-width: 600px) {
-    #plotapi-chart-097fbff9 svg, #featured-plotapi-chart-097fbff9 svg {
+    #plotapi-chart-0f89c8f0 svg, #featured-plotapi-chart-0f89c8f0 svg {
         font-size: 20px;
     }
 
@@ -82,7 +82,7 @@ Copyright (C) 2021  Dr. Shahin Rostami
 </style>
 </head>
 <body>
-    <div id="plotapi-chart-097fbff9" class="chord plotapi-container"></div>
+    <div id="plotapi-chart-0f89c8f0" class="chord plotapi-container"></div>
 
     <script>
     (function() {
@@ -172,7 +172,7 @@ Copyright (C) 2021  Dr. Shahin Rostami
                 .endAngle(endAngle);
 
             
-            var svg = d3.select("#plotapi-chart-097fbff9")
+            var svg = d3.select("#plotapi-chart-0f89c8f0")
                 .append("svg")
                 .attr(
                     "viewBox",
@@ -199,7 +199,7 @@ Copyright (C) 2021  Dr. Shahin Rostami
             
             
             function getGradID(d) {
-                return ("linkGrad-plotapi-chart-097fbff9-" + d.source.index + "-" + d.target.index);
+                return ("linkGrad-plotapi-chart-0f89c8f0-" + d.source.index + "-" + d.target.index);
             }
 
             
@@ -412,7 +412,7 @@ Copyright (C) 2021  Dr. Shahin Rostami
                             var figures = '';
 
                             for(var k = 0; k < details[d.source.index][d.target.index].length; k++) {
-                                figures += "<figure class='details_thumbs-plotapi-chart-097fbff9'><img src=" + details_thumbs[d.source.index][d.target.index][k] + "><figcaption>" + details[d.source.index][d.target.index][k] + "</figcaption></figure>"
+                                figures += "<figure class='details_thumbs-plotapi-chart-0f89c8f0'><img src=" + details_thumbs[d.source.index][d.target.index][k] + "><figcaption>" + details[d.source.index][d.target.index][k] + "</figcaption></figure>"
                             }
                     
                             tippy_content = tippy_content + "<br><br><center><span><em>" + figures + "</em></span></center>";
@@ -429,7 +429,7 @@ Copyright (C) 2021  Dr. Shahin Rostami
                             var figures = '';
 
                             for(var k = 0; k < details_thumbs[d.source.index][d.target.index].length; k++) {
-                                figures += "<figure class='details_thumbs-plotapi-chart-097fbff9'><img src=" + details_thumbs[d.source.index][d.target.index][k] + "></figure>"
+                                figures += "<figure class='details_thumbs-plotapi-chart-0f89c8f0'><img src=" + details_thumbs[d.source.index][d.target.index][k] + "></figure>"
                             }
                     
                             tippy_content = tippy_content + "<br><br><center><span><em>" + figures + "</em></span></center>";
@@ -468,7 +468,7 @@ Copyright (C) 2021  Dr. Shahin Rostami
             
 
             
-            d3.select("#plotapi-chart-097fbff9 svg")
+            d3.select("#plotapi-chart-0f89c8f0 svg")
                 .append("svg:a")
                 .attr("xlink:href", "https://plotapi.com")
                 .attr("target", "_blank")
@@ -479,27 +479,27 @@ Copyright (C) 2021  Dr. Shahin Rostami
                 .attr('x', width+margin.left + margin.right-20)
                 .attr('y', 0)
                 .style("opacity", 0)
-                .attr("id","plotapi-chart-097fbff9_icon")
+                .attr("id","plotapi-chart-0f89c8f0_icon")
 
-            d3.select("#plotapi-chart-097fbff9_icon")
+            d3.select("#plotapi-chart-0f89c8f0_icon")
                 .append("title")
                 .text("Produced with Plotapi");
 
-            d3.select("#plotapi-chart-097fbff9_icon").on("mouseover", function(d, i) {
-                d3.select("#plotapi-chart-097fbff9_icon").style("opacity", 1)
+            d3.select("#plotapi-chart-0f89c8f0_icon").on("mouseover", function(d, i) {
+                d3.select("#plotapi-chart-0f89c8f0_icon").style("opacity", 1)
             });
 
-            d3.select("#plotapi-chart-097fbff9_icon").on("mouseout", function(d, i) {
-                d3.select("#plotapi-chart-097fbff9_icon").style("opacity", 0.6)
+            d3.select("#plotapi-chart-0f89c8f0_icon").on("mouseout", function(d, i) {
+                d3.select("#plotapi-chart-0f89c8f0_icon").style("opacity", 0.6)
             });
 
-            d3.select("#plotapi-chart-097fbff9 svg").on("mouseenter", function() {
-                d3.select("#plotapi-chart-097fbff9_icon").style("opacity", 0.6)
+            d3.select("#plotapi-chart-0f89c8f0 svg").on("mouseenter", function() {
+                d3.select("#plotapi-chart-0f89c8f0_icon").style("opacity", 0.6)
             });
 
-            d3.select("#plotapi-chart-097fbff9 svg").on("mouseleave", function() {
+            d3.select("#plotapi-chart-0f89c8f0 svg").on("mouseleave", function() {
                                     
-                d3.select("#plotapi-chart-097fbff9_icon").style("opacity", 0);
+                d3.select("#plotapi-chart-0f89c8f0_icon").style("opacity", 0);
             });
             
 
