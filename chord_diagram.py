@@ -24,4 +24,4 @@ import json
 
 Chord.set_license("nauman555@gmail.com", "PLOTAPI-P-db6afc71-692f-47d3-834d-8b843cd874ca")
 
-Chord(matrix, names, arc_numbers=True, data_table_show_indices=False,opacity=0.8).to_html()
+Chord(matrix, names, colors="monsters", arc_numbers=True, data_table_show_indices=False,opacity=0.8).to_html()
