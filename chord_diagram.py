@@ -12,7 +12,7 @@ matrix = matrix.multiply(100).astype(int)
 matrix = matrix.values.tolist()
 
 # Names of the features.
-names = ["contract","smart","block","chain","bitcoin","data","devic","suppli","plural","receiv","configur","privaci","applic","include","transact","financi","energi","busi","develop","network","secur","protocol","attack","user","method","hash"]
+names = ["contract","smart","chain","bitcoin","suppli","applic","financi","energi","busi","develop","network","secur","protocol","attack","data","devic","privaci","transact","user","method","hash","block","includ","plural","receiv","configur"]
 
 
 from plotapi import Chord
